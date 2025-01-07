@@ -1,8 +1,9 @@
 #! /usr/bin/env python3
 
 import random
-import gnureadline as readline # fixes issues with running the program using ./rock_paper_scissors.py
 import sys
+
+import gnureadline as readline  # fixes issues with running the program using ./rock_paper_scissors.py
 
 # Define global variables
 moves: dict[str, str] = {"rock": "\U0001FAA8", "paper": "\U0001F4C4", "scissors": "\U00002702"}
