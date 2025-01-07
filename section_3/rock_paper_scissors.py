@@ -39,6 +39,7 @@ def main() -> int:
     # Set initial scores
     user_score: int = 0
     computer_score: int = 0
+
     try:
         # Print welcome message
         print("Welcome to Rock, Paper, Scissors!")
