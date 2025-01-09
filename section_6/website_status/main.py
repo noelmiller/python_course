@@ -53,7 +53,8 @@ def main() -> None:
     response: Response = get_response(user_input)
     show_response_info(response)
     sys.exit()
-# Example Code from Tutorial
+
+# Example Code from Tutorial, obviously I expanded on it with the above code
 #    website: str = "https://www.indently.io/abc"
 #    response: Response = get_response(website)
 #    show_response_info(response)
