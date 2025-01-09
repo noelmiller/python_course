@@ -22,8 +22,6 @@ def get_valid_user_input() -> str:
 def get_response(url: str) -> Response:
     try:
         return requests.get(url)
-    except requests.exceptions.MissingSchema:
-        print("Invalid URL. Please try again.")
     except requests.exceptions.ConnectionError:
         print("Connection error. Please try again.")
     except requests.exceptions.Timeout:
@@ -32,9 +30,6 @@ def get_response(url: str) -> Response:
         print("Too many redirects. Please try again.")
     except requests.exceptions.RequestException:
         print("Request exception. Please try again.")
-    except KeyboardInterrupt:
-        print("\nExiting program.")
-        sys.exit()
 
 def show_response_info(response: Response) -> None:
     print("----")
