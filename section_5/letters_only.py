@@ -25,4 +25,5 @@ def main() -> None:
             print(f"Error type: {type(e)}")
             print(f"Error: {e}")
 
-main()
+if __name__ == "__main__":
+    main()
