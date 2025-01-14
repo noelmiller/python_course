@@ -1,0 +1,9 @@
+[project]
+name = "section-3"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "gnureadline>=8.2.13",
+]
